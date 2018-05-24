@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">PictureManager</string>
+    <string name="title_activity_filemanager_main">filemanager_main</string>
+</resources>

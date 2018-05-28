@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     FrameLayout frameLayout;
     ShowCamera showCamera;
 
-    private String folderName = "PicOrg";
+    private String folderName = "SchoolPictures";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
         {
             return null;
         }else{
-            File folder_gui = new File(Environment.getExternalStorageDirectory()+separator + "PicOrg" + separator + this.folderName);
+            File folder_gui = new File(Environment.getExternalStorageDirectory()+separator + "School Pictures" + separator + this.folderName);
             if(!folder_gui.exists())
             {
                 folder_gui.mkdirs();
